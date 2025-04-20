@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Beacon Corporation - Welcome</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/font-size/font-size.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/margin/margin.css">
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/utilities/padding/padding.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<style>
+  /*** CUSTOM BUTTONS ***/
+  .white-button {
+    text-decoration: none !important; 
+    border: 3px white solid !important;
+    border-radius:2% !important;
+    padding: 0.8% 0.8%;
+    font-family: 'Mona Sans', sans-serif; 
+    color: white !important;
+    background-color: rgba(0,0,0,0) !important;
+  }
+  
+  .white-button:hover {
+    text-decoration: none !important;
+    background:red !important;
+    border: 3px red solid !important;
+    color: black !important;
+  }
+
+  .red-button {
+    text-decoration: none !important; 
+    border: 3px red solid !important;
+    border-radius:2% !important;
+    padding: 0.8% 0.8%;
+    font-family: 'Mona Sans', sans-serif; 
+    color: red !important;
+    background-color: rgba(0,0,0,0) !important;
+  }
+  
+  .red-button:hover {
+    text-decoration: none !important;
+    background:black !important;
+    border: 3px black solid !important;
+    color: white !important;
+  }
+
+  .black-button {
+    text-decoration: none !important; 
+    border: 3px black solid !important;
+    border-radius:2% !important;
+    padding: 0.8% 0.8%;
+    font-family: 'Mona Sans', sans-serif; 
+    color: black !important;
+    background-color: rgba(0,0,0,0) !important;
+  }
+  
+  .black-button:hover {
+    text-decoration: none !important;
+    background:white !important;
+    border: 3px white solid !important;
+    color: red !important;
+  }
+	</style>
+</head>
+<body>
+<!-- BODY BACKGROUND -->
+  <div class="gif-bg"></div> 
+  <!-- GIF Image Background -->
+  <div id="particles-js"></div> 
+  <!-- Particles.js Overlay -->
+<!-- BODY BACKGROUND - ENDS -->
+
+<!--DIVISION-0: RESPONSIVE NAVBAR-->
+  <nav class="navbar navbar-expand-lg bg-transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/logos/OnlyLogo.png" style="width:120px;" alt="Beyond Beacon Corp. Logo">
+        </a>
+        
+        <button class="navbar-toggler border border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav d-flex align-items-center ms-auto">
+
+          <!-- PRODUCTS DROPDOWN -->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" 
+                  aria-expanded="false">Products</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="servicesDropdown">
+                <li class="dropdown-header" style="color:red;"><b>IT & SECURITY PRODUCTS</b></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">IT Risk & Security Management Platform (IRSM)</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">NG AI-Integrated Security Control Management (NG-AISCM)</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">Open-Source Tools</a></li>
+                <center><hr style="height:2px;border-width:0;background-color:white;width:100%;"></center>
+                <li class="dropdown-header" style="color:red;"><b>STRAT-INT PRODUCTS</b></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">Integrated Strategic Intelligence Dashboard (I-SINT)</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">Android Products: App Store</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">Android Products: News Glance App</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">The Browser Project (TBP)</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/products/all-products.html">Open-Source Tools</a></li>
+                <center><hr style="height:2px;border-width:0;background-color:white;width:100%;"></center>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Visit Our Store</a></li>
+              </ul>
+          </li>
+
+          <!-- SERVICES DROPDOWN-->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" 
+                  aria-expanded="false">Services</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="servicesDropdown">
+                <li class="dropdown-header" style="color:red;"><b>INFORMATION SECURITY SERVICES (ISS)</b></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Security Foundations & Compliances</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Risk Management & Pro-active Threat Visibility</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Defensive Operations: Detection, Prevention & Engineering</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Offensive Operations: Red Teaming & APT Threat Simulations</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Security Optimizations & Managed Services</a></li>
+                <center><hr style="height:2px;border-width:0;background-color:white;width:100%;"></center>
+                <li class="dropdown-header" style="color:red;"><b>STRATEGIC INTELLIGENCE SERVICES (SIS)</b></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Foundational Intelligence & Geo-Security Awareness</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Sectoral, National & Political Strategic Intelligence</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Warfare Intelligence & Asymmetric Conflict Research</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Advanced Threat Research & Next-Gen Global Dynamics</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Strategic Advisory, Forecasting & Geo-Policy Influence</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Dark Web Threats & CSAM Prevention Research</a></li>
+                <center><hr style="height:2px;border-width:0;background-color:white;width:100%;"></center>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Check Complete ISS - Information Security Services</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/services/all-services.html">Check Complete SIS - Strategic Intelligence Services</a></li>
+              </ul>
+          </li>
+            
+          <!-- RESOURCES DROPDOWN -->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" 
+                  aria-expanded="false">Resources</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="resourcesDropdown">
+                <li><a class="dropdown-item" href="./assets/pages/resources/blog/index.html">Community Blog</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Whitepapers & Research Reports</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Open Resources</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Academy Playground</a></li>
+              </ul>
+          </li>
+            
+            <!-- COMPANY DROPDOWN -->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-bs-toggle="dropdown" 
+                  aria-expanded="false">Company</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="contactDropdown">
+                <li><a class="dropdown-item" href="./assets/pages/contactus/team.html">Our Story & The Team</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Partnerships & Collaborations</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Corporate Social Responsibility (CSR)</a></li>
+              </ul>
+          </li>
+
+          <!-- CONTACT DROPDOWN -->
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button" data-bs-toggle="dropdown" 
+                  aria-expanded="false">Contact</a>
+              <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="contactDropdown">
+                <li><a class="dropdown-item" href="./assets/pages/contact/story-team.html">Sales Team</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Raise a Ticket - Customer Service</a></li>
+                <li><a class="dropdown-item" href="./assets/pages/404.html">Business Collaborations & Partnerships</a></li>
+              </ul>
+          </li>
+
+          </ul>
+        </div>
+      </div>
+  </nav>
+<!--DIVISION-0: RESPONSIVE NAVBAR - ENDS -->
+
+<!--  DIVISION-1: LANDING PAGE - HERO SECTION - CONTENT -->
+  <div class="container-fluid content">
+  <!-- COL-1: HERO TEXT CONTENT -->
+      <div class="content-division typewriter">
+          <h1 class="content-header">> Security Redefined</h1>
+          <p class="content-paragraph">Empowering Intelligence, Fortifying Cyberspace</p>
+          <br>
+          <button href="./assets/pages/404.html" class="white-button">Get Started&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-right"></i></button>
+      </div>
+  </div>
+  <!-- COL-2: HERO IMG CONTENT-->
+<!-- DIVISION-1: LANDING PAGE - HERO SECTION - CONTENT - ENDS -->
+
+<!-- DIVISION-1: ISS REPORT DIVISION -->
+  <div class="reports-section d-flex flex-wrap">
+      <!-- Threat Report -->
+      <div class="col-12 p-5 text-center d-flex flex-column justify-content-center align-items-center bg-white">
+          <h2 class="fw-bold mb-3" style="color: black;">Download Our Latest 2025 Q1 Threat Report</h2>
+          <p style="color:black;">Stay ahead with our detailed analysis of the latest cybersecurity threats, trends, and mitigations.</p>
+          <a href="./assets/pages/404.html" class="red-button mt-3">Get It Here</a>
+      </div>
+  </div>
+<!-- DIVISION-1: ISS REPORT DIVISION ENDS -->
+
+<!-- DIVISION-2: WHY BEYOND BEACON-->
+  <div class="container-fluid bg-black p-5">
+    <div class="py-5 px-5 justify-content-center align-items-center">
+      <h1 style="color:white;"><strong>Why Beyond Beacon Corp. (BBCORP)?</strong></h1>
+      <br>
+      <hr style="width: 20%; border: red 2px solid; border-radius: 4px;">
+      <br>
+      <p style="color:white;">We deliver world-class, comprehensive IT security & Operational intelligence services tailored to organizations of all sizes, spanning various sectors, corporations, institutions, and government bodies. Our intelligence-driven and governance-aligned methodologies empower you to establish and maintain global security standards, ensuring robust protection regardless of the scope or scale of your requirements.</p>
+    </div>
+    <hr style="opacity: 100% !important; margin: auto; width: 40%; border: red 2px solid; border-radius: 4px;">
+    <div class="container-fluid py-5">
+      <div class="row justify-content-center">
+        <div class="col-md-4 col-lg-4 my-1 card-glass">
+          <div class="card-body text-center" style="border: 1px solid white; padding: 2% 1%; border-radius: 8px;">
+            <h5 class="card-title" style="color:red;"><b>Intelligence Driven</b></h5>
+            <p class="card-text text-white">Empowering organizations to integrate multi-domain intelligence, enabling informed decisions that enhance business and security outcomes.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 my-1 card-glass">
+          <div class="card-body text-center" style="border: 1px solid white; padding: 2% 1%; border-radius: 8px;">
+            <h5 class="card-title" style="color:red;"><b>Tailored Solutions</b></h5>
+            <p class="card-text text-white">Customized services designed to meet unique organizational needs.</p>
+          </div>
+        </div>
+        <div class="col-md-4 col-lg-4 my-1 card-glass">
+          <div class="card-body text-center" style="border: 1px solid white; padding: 2% 1%; border-radius: 8px;">
+            <h5 class="card-title" style="color:red;"><b>Standards Enforced</b></h5>
+            <p class="card-text text-white">Ensuring compliance with the highest international security benchmarks.</p>
+          </div>
+        </div>
+      </div>
+    </div>        
+  </div>
+
+<!-- DIVISION-3: SERVICES-->
+	<div class="services-section container-fluid py-5" style="background-color: white;">
+		<div class="text-center">
+			<h2 class="fw-bold" style="color:black;">Our Services</h2>
+      <h6 style="color: black;">Explore our world-class offerings, tailored to meet diverse organizational needs.</h6>
+		</div>
+		<div class="row px-5">
+			<div class="col-12 col-lg-6 py-3">
+        <h4 class="fw-bold py-3" style="color:red;"><i class="fas fa-shield-alt"></i> Information Security Services (ISS)</h4>
+        <div class="accordion" id="issAccordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFirst" aria-expanded="false" aria-controls="collapseFirst">Security Foundations & Compliances</button>
+            </h2>
+            <div id="collapseFirst" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+              <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+              <div class="px-3 py-2">
+                <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecond" aria-expanded="false" aria-controls="collapseSecond">Risk Management & Pro-Active Threat Visibility</button>
+            </h2>
+            <div id="collapseSecond" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+              <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+              <div class="px-3 py-2">
+                <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">IT Security: Defensive Operations</button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+              <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+              <div class="px-3 py-2">
+                <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">IT Security: Offensive Operations</button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+              <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+              <div class="px-3 py-2">
+                <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Security Optimizations & Managed Security Services (MSS)</button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+              <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+              <div class="px-3 py-2">
+                <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+    </div>
+    <div class="col-12 col-lg-6 py-3">
+      <h4 class="fw-bold py-3" style="color:red;"><i class="fas fa-shield-alt"></i> Strategic Intelligence Services (SIS)</h4>
+      <div class="accordion" id="issAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFirstSIS" aria-expanded="false" aria-controls="collapseFirstSIS">Foundational Intelligence & Geo-Political Security Awareness</button>
+          </h2>
+          <div id="collapseFirstSIS" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+            <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecondSIS" aria-expanded="false" aria-controls="collapseSecondSIS">Sectoral, National & Political Strategic Intelligence</button>
+          </h2>
+          <div id="collapseSecondSIS" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+            <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThreeSIS" aria-expanded="false" aria-controls="collapseThreeSIS">Asymmetric & Unrestricted Warfare Intelligence & Conflict Research</button>
+          </h2>
+          <div id="collapseThreeSIS" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+            <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFourSIS" aria-expanded="false" aria-controls="collapseFourSIS">Security Foundations</button>
+          </h2>
+          <div id="collapseFourSIS" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+            <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFiveSIS" aria-expanded="false" aria-controls="collapseFiveSIS">Security Foundations</button>
+          </h2>
+          <div id="collapseFiveSIS" class="accordion-collapse collapse p-2" data-bs-parent="#issAccordion">
+            <div class="accordion-body p-3" style="font-family: 'Mona Sans', sans-serif;">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+<!-- DIVISION-3: SERVICES - ISS / SIS - ENDS-->
+
+<!-- DIVISION-3A: STRATEGIC INTELLIGENCE REPORT -->
+<div class="reports-section d-flex flex-wrap">
+  <div class="col-12 p-5 text-center d-flex flex-column justify-content-center align-items-center bg-black text-white">
+    <h2 class="fw-bold mb-3">Check Out Our Strategic Intelligence Reports</h2>
+    <p>Access actionable insights tailored for industry-specific intelligence and strategic advantage.</p>
+    <a href="./assets/pages/404.html" class="white-button">Explore Reports</a>
+  </div>
+</div>
+<!-- DIVISION-3A: STRATEGIC INTELLIGENCE REPORT ENDS -->
+
+<!-- DIVISION-4: PRODUCTS -->
+<div class="products-section py-5" style="background-image: url(./assets/images/Div-2BG.jpg); background-repeat: no-repeat; background-size: cover;"">
+  <div class="container text-center">
+    <h2 class="fw-bold text-red mb-4">Discover Our Products</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="product-card shadow-sm p-4 rounded">
+            <img src="https://www.itsecurityguru.org/wp-content/uploads/2017/02/securitythreatistock000021838365alexskopje.jpg" style="filter: grayscale(100%);" alt="Product 1" class="img-fluid rounded mb-3">
+            <h5 class="fw-bold">Cyber Threat Intelligence Platform</h5>
+            <p>Empowering organizations with real-time threat detection and actionable intelligence.</p>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card shadow-sm p-4 rounded">
+            <img src="https://content.kaspersky-labs.com/fm/press-releases/63/63459fdac7669bf9de01be2aaf38470b/processed/gettyimages-1353240272-q75.jpg" style="filter: grayscale(100%);" alt="Product 2" class="img-fluid rounded mb-3">
+            <h5 class="fw-bold">Advanced Anti-Malware Solution</h5>
+            <p>Protecting your digital assets with cutting-edge malware detection and prevention.</p>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="product-card shadow-sm p-4 rounded">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRVcfnmsvTI1CmjaY11fK6VQQE3Bi_QjWeKA&s" style="filter: grayscale(100%);" alt="Product 3" class="img-fluid rounded mb-3">
+            <h5 class="fw-bold">Browser & Search Engine</h5>
+            <p>Experience privacy-focused browsing and secure search functionality.</p>
+            <div class="px-3 py-2">
+              <a href="./assets/pages/404.html" class="p-2 red-button" style="font-family: 'Inter', sans-serif;">Get Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <center>
+    <div class="px-3 py-2 container text-center">
+      <a href="./assets/pages/404.html" class="p-2 black-button btn-block" style="font-family: 'Inter', sans-serif;"><strong><span class="spinner-grow spinner-grow-sm"></span>&nbsp; &nbsp; Checkout Our Products Store &nbsp; &nbsp;<i class="fa fa-arrow-right"></i></strong></a>
+    </div>
+    </center>
+</div>
+<!-- DIVISION-4: PRODUCTS - ENDS -->
+
+<!-- DIVISION-5: STATISTICS -->
+  <div class="statistics-section py-5 bg-black text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3">
+          <h2 class="display-4">5+</h2>
+          <p>Projects Completed</p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="display-4">20+</h2>
+          <p>Happy Clients</p>
+        </div>
+        <div class="col-md-3">
+          <h2 class="display-4">2+</h2>
+          <p>Countries Served</p>
+        </div>
+        <div class="col-md-3">
+                    <h2 class="display-4">2+</h2>
+                    <p>Years in Business</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- DIVISION-5: STATISTICS - ENDS -->
+
+<!-- DIVISION-6: TESTIMONIALS -->
+  <div class="testimonial-section py-5 bg-light">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-4">What Our Clients Say</h2>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="testimonial p-4 rounded shadow-sm">
+            <p>"Beyond Beacon transformed our cybersecurity approach with their innovative solutions. Truly outstanding service!"</p>
+            <h5>- Emily Watson</h5>
+            <span>CEO, TechCorp</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial p-4 rounded shadow-sm">
+            <p>"Their attention to detail and professionalism exceeded all our expectations. Highly recommended."</p>
+            <h5>- Michael Davis</h5>
+            <span>Manager, FinSafe</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="testimonial p-4 rounded shadow-sm">
+            <p>"Exceptional service with results that speak for themselves. We feel more secure than ever."</p>
+            <h5>- Sarah Johnson</h5>
+            <span>Director, SecureIT</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- DIVISION-6: TESTIMONIALS ENDS -->
+    <!-- DIVISION-7: CONTACT US FOOTER -->
+    <footer class="footer">
+      <section>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-4 py-5 py-md-5 py-xxl-8" style="background-color: black;">
+              <div class="row h-100 align-items-end justify-content-center">
+                <div class="col-12 col-md-11 col-xl-10">
+                  <div class="footer-logo-wrapper">
+                    <a href="#!">
+                      <img src="./assets/logos/OnlyLogo.png" alt="BootstrapBrain Logo" width="100%" height="">
+                    </a>
+                  </div>
+                  <div class="text-center">
+                    <!-- Grid container -->
+                    <div class="container pt-4">
+                      <section class="mb-4">
+                        <a class="btn btn-link btn-floating btn-lg white-button mx-2 px-2" href="https://facebook.com" role="button">
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-link btn-floating btn-lg white-button mx-2 px-2" href="https://twitter.com" role="button">
+                          <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-link btn-floating btn-lg white-button mx-2 px-2" href="https://instagram.com" role="button">
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-link btn-floating btn-lg white-button mx-2 px-2" href="https://linkedin.com" role="button">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a class="btn btn-link btn-floating btn-lg white-button mx-2 px-2" href="https://github.com" role="button">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      </section>
+                    </div>
+                  </div>
+                  <div class="address-wrapper mt-5 text-center">
+                  <p><address class="mb-2 text-white" style=" font-family: 'Mona Sans', sans-serif;">Secunderabad, Telangana (TG) - India</address>
+                  <p class="mb-2">
+                      <a class="link-light text-decoration-none" href="tel:+91 0000000000">(+91) 00000 00000</a>
+                  </p>
+                  <p class="mb-0">
+                      <a class="link-light text-decoration-none" style="font-family: 'Mona Sans', sans-serif;" href="mailto:contactus@beyondbeacon.in">contactus@beyondbeacon.in</a>
+                  </p></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+                <div class="col-12 col-lg-8 py-4 py-md-5 py-xxl-8">
+                    <div class="row justify-content-center">
+                    <div class="col-12 col-md-11 col-xxl-10">
+                        <div class="row gy-4 gy-sm-0">
+                        <div class="col-6">
+                            <div class="widget">
+                            <h4 class="widget-title mb-4" style="color:red;">Services</h4>
+                            <ul class="list-unstyled" >
+                                <li class="mb-3">
+                                <a href="#!" class="link-light text-decoration-none">Security Foundations & Compliances</a>
+                                </li>
+                                <li class="mb-3">
+                                <a href="#!" class="link-light text-decoration-none">Risk Management & Pro-active Threat Visibility</a>
+                                </li>
+                                <li class="mb-3">
+                                <a href="#!" class="link-light text-decoration-none">IT Security: Defensive Operations</a>
+                                </li>
+                                <li class="mb-3">
+                                <a href="#!" class="link-light text-decoration-none">IT Security: Offensive Operations</a>
+                                </li>
+                                <li class="mb-3">
+                                <a href="#!" class="link-light text-decoration-none">Security Optimizations & MSS</a>
+                                </li>
+                                <li class="mb-3">
+                                <a href="#!" class="link-light text-decoration-none">Strategic Geo-Political Intelligence</a>
+                                </li>
+                                <li class="mb-0">
+                                <a href="#!" class="link-light text-decoration-none">Insurgency & Terrorism</a>
+                                </li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="widget">
+                            <h4 class="widget-title mb-4" style="color:red;">Our Newsletter</h4>
+                            <p class="mb-4 text-light">Never miss out on our company's latest news, updates, and exclusive offers! Subscribe to our newsletter today and get the inside scoop delivered straight to your inbox.</p>
+                            <form action="#!">
+                                <div class="row gy-4">
+                                <div class="col-12">
+                                    <div class="input-group">
+                                    <span class="input-group-text" id="email-newsletter-addon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                        </svg>
+                                    </span>
+                                    <input type="email" class="form-control" id="email-newsletter" value="" placeholder="Email Address" aria-label="email-newsletter" aria-describedby="email-newsletter-addon" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="d-grid">
+                                    <button class="btn white-button" type="submit">Subscribe</button>
+                                    </div>
+                                </div>
+                                </div>
+                            </form>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="row mt-6 border-top border-light-subtle">
+                      <div class="footer-copyright-wrapper mt-6" style="color:red;">
+                          <p><strong>&copy; 2024. All Rights Reserved.</strong></p>
+                      </div>
+                      <div class="credits text-white mt-2 fs-7">
+                      Built with <span  style="color:red;">&#9829;</span> from <a href="https://beyondbeacon.in/" class="text-decoration-none" style="color: red;"><strong>Beyond Beacon</strong></a> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- DIVISION-7: CONTACT US FOOTER ENDS -->
+
+    <!-- JS SCRIPTS -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <!-- JS SCRIPTS - ENDS -->
+</body>
+</html>

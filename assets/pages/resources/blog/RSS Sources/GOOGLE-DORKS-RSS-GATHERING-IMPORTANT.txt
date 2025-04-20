@@ -1,0 +1,34 @@
+GOOGLE DORKING - RSS FEED GATHERING QUERIES
+===========================================
+BASIC TARGETED RSS/XML FEEDS: 
+> inurl:"/feed" OR inurl:"/rss" OR inurl:"/atom" OR inurl:"rss.xml" OR inurl:"feed.xml" OR inurl:"atom.xml"
+WITH TARGETED KEYWORDS: 
+> (inurl:"/feed" OR inurl:"/rss" OR inurl:"rss.xml" OR inurl:"feed.xml") (intitle:"military" OR intitle:"defense" OR intitle:"intel" OR intitle:"intelligence" OR intitle:"osint" OR intitle:"cybersecurity" OR intitle:"cyber warfare")
+XML FILES ONLY (Tight focus): 
+> filetype:xml (inurl:"rss" OR inurl:"feed") (military OR defense OR intel OR osint OR cyber)
+KNOWN CMS-BASED RSS FEED PATTERNS: 
+> inurl:"/category/intelligence/feed" OR inurl:"/category/military/feed" OR inurl:"/category/cybersecurity/feed"
+ADVANCED REFINED WITH SITE TYPES: 
+> (Think tanks, blogs, orgs)inurl:feed OR inurl:rss (site:.mil OR site:.org OR site:.int OR site:.gov OR site:medium.com OR site:wordpress.com) (military OR osint OR cyber)
+AGGREGATORS / OSINT HUBS / NEWS SOURCES:
+> inurl:"/rss" (intitle:"OSINT" OR intitle:"Cybersecurity" OR intitle:"Defense Intelligence")
+
+EXAMPLES: 
+https://www.defense.gov/rss/news.xml
+https://blog.cyberintel.com/feed
+https://osintcurio.us/feed
+https://www.securityweek.com/feed
+https://www.army-technology.com/feed/
+site:defense.gov inurl:rss
+site:nato.int inurl:feed
+site:osintcurio.us inurl:feed
+
+TO CHECK WITH
+- Satellite
+- Space
+- Market
+- Finance
+- Banks
+- Health
+- Procurements & Defense Related
+- Threat Intelligence
