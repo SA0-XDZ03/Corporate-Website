@@ -65,5 +65,7 @@ https://mosdac.gov.in/3dimager.xml
 https://mosdac.gov.in/3dsounder.xml
 https://mosdac.gov.in/3drimager.xml
 https://mosdac.gov.in/3drsounder.xml
+https://rss.beehiiv.com/feeds/HVhiKYpQlR.xml
+https://www.geopolitical.report/
 https://www.china-arms.com/feed/
 https://chinese-military-aviation.blogspot.com/feeds/posts/default?alt=rss
