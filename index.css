@@ -40,6 +40,10 @@ p, li, a, .btn, button, form, .dropdown-item {
     font-family: 'Mona Sans', sans-serif;
   }
 
+a {
+  text-decoration: none !important; 
+}
+
 .gif-bg {
     position: fixed;
     top: 0;
