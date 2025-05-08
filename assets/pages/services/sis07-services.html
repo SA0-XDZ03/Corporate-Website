@@ -13,6 +13,15 @@
 	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 	<style>
+    body, p, li, ul, a { color: white; }
+    h1, h2, h3, h4, h5 { color: red; }
+    .section-title { border-left: 5px solid red; padding-left: 10px; margin-top: 40px; }
+    .card-custom { background: #111; border-left: 4px solid red; border-radius: 10px; transition: 0.3s ease; }
+    .card-custom:hover { background-color: #1a1a1a; transform: scale(1.02); }
+    .anchor-link { font-weight: bold; color: red; }
+    .anchor-link:hover { text-decoration: underline; }
+    .white-button { text-decoration: none !important; border: 3px white solid !important; border-radius: 2% !important; padding: 0.8% 0.8%; font-family: 'Mona Sans', sans-serif; color: white !important; background-color: rgba(0,0,0,0) !important; }
+    .white-button:hover { background: red !important; border: 3px red solid !important; color: black !important; }
   /*** CUSTOM BUTTONS ***/
   .white-button {
     text-decoration: none !important; 
@@ -78,7 +87,7 @@
 <nav class="navbar navbar-expand-lg bg-transparent">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="./assets/logos/OnlyLogo.png" style="width:120px;" alt="Beyond Beacon Corp. Logo">
+        <img src="./../../logos/OnlyLogo.png" style="width:120px;" alt="Beyond Beacon Corp. Logo">
       </a>
       
       <button class="navbar-toggler border border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,12 +103,12 @@
                 aria-expanded="false">Products</a>
             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="servicesDropdown">
               <li class="dropdown-header" style="color:red;"><b>IT & SECURITY PRODUCTS</b></li>
-              <li><a class="dropdown-item" href="./assets/pages/products/all-community-products.html#ITSEC">Community Projects</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/products/all-pro-products.html#ITSEC">Professional Products</a></li>
+              <li><a class="dropdown-item" href="./../products/all-community-products.html#ITSEC">Community Projects</a></li>
+              <li><a class="dropdown-item" href="./../products/all-pro-products.html#ITSEC">Professional Products</a></li>
               <center><hr style="height:2px;border-width:0;background-color:white;width:100%;"></center>
               <li class="dropdown-header" style="color:red;"><b>STRATEGIC INTELLIGENCE PRODUCTS</b></li>
-              <li><a class="dropdown-item" href="./assets/pages/products/all-community-products.html#INTEL">Community Projects</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/products/all-pro-products.html#INTEL">Professional Products</a></li>
+              <li><a class="dropdown-item" href="./../products/all-community-products.html#INTEL">Community Projects</a></li>
+              <li><a class="dropdown-item" href="./../products/all-pro-products.html#INTEL">Professional Products</a></li>
             </ul>
         </li>
 
@@ -110,24 +119,24 @@
               
               <!-- INFORMATION SECURITY SERVICES -->
               <li class="dropdown-header" style="color:red;"><b>INFORMATION SECURITY SERVICES (ISS)</b></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/ps1-services.html"> ISS-PS1-SFC - Foundations</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/ps2-services.html">ISS-PS2-PARAM - Analysis & Assessments</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/ps3-services.html">ISS-PS3-ISDO - Defensive Ops</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/ps4-services.html">ISS-PS4-ISOO - Offensive Ops</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/ps4-services.html">ISS-PS5-OOS - Optimizations</a></li>
+              <li><a class="dropdown-item" href="./ps1-services.html"> ISS-PS1-SFC - Foundations</a></li>
+              <li><a class="dropdown-item" href="./ps2-services.html">ISS-PS2-PARAM - Analysis & Assessments</a></li>
+              <li><a class="dropdown-item" href="./ps3-services.html">ISS-PS3-ISDO - Defensive Ops</a></li>
+              <li><a class="dropdown-item" href="./ps4-services.html">ISS-PS4-ISOO - Offensive Ops</a></li>
+              <li><a class="dropdown-item" href="./ps5-services.html">ISS-PS5-OOS - Optimizations</a></li>
 
               <center><hr style="height:2px;border-width:0;background-color:white;width:100%;"></center>
 
               <!-- STRATEGIC INTELLIGENCE SERVICES -->
               <li class="dropdown-header" style="color:red;"><b>STRATEGIC INTELLIGENCE SERVICES (SIS)</b></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/sis01-services.html">SIS001 - Geo-Political Strategic Studies</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/sis02-services.html">SIS002 - Sectoral Strategic Support</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/sis03-services.html">SIS003 - Military & National Security Intelligence</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/sis04-services.html">SIS004 - Unrestricted, Multi-Hybrid & Unconventional Warfare Studies</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/sis05-services.html">SIS005 - Emerging Technologies & Future Security Studies</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/sis06-services.html">SIS006 - Conflicts, Crime, Calamities, Insurgency & Terrorism Research</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/sis07-services.html">SIS007 - Survivability, Sustainability & Humanities</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/cdir-services.html">CDIR - Centre for Defence & Intelligence Research</a></li>
+              <li><a class="dropdown-item" href="./sis01-services.html">SIS001 - Geo-Political Strategic Studies</a></li>
+              <li><a class="dropdown-item" href="./sis02-services.html">SIS002 - Sectoral Strategic Support</a></li>
+              <li><a class="dropdown-item" href="./sis03-services.html">SIS003 - Military & National Security Intelligence</a></li>
+              <li><a class="dropdown-item" href="./sis04-services.html">SIS004 - Unrestricted, Multi-Hybrid & Unconventional Warfare Studies</a></li>
+              <li><a class="dropdown-item" href="./sis05-services.html">SIS005 - Emerging Technologies & Future Security Studies</a></li>
+              <li><a class="dropdown-item" href="./sis06-services.html">SIS006 - Conflicts, Crime, Calamities, Insurgency & Terrorism Research</a></li>
+              <li><a class="dropdown-item" href="./sis07-services.html">SIS007 - Survivability, Sustainability & Humanities</a></li>
+              <li><a class="dropdown-item" href="./cdir-services.html">CDIR - Centre for Defence & Intelligence Research</a></li>
           </ul>
         </li>
           
@@ -136,9 +145,9 @@
             <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" 
                 aria-expanded="false">Resources</a>
             <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end" aria-labelledby="resourcesDropdown">
-              <li><a class="dropdown-item" href="./assets/pages/resources/blog/index.html">Community Blog</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/services/all-services.html#CommunityProjects">Open Resources</a></li>
-              <li><a class="dropdown-item" href="./assets/pages/404.html">Academy Playground</a></li>
+              <li><a class="dropdown-item" href="./../resources/blog/blog-index.html">Community Blog</a></li>
+              <li><a class="dropdown-item" href="./all-services.html#CommunityProjects">Open Resources</a></li>
+              <li><a class="dropdown-item" href="./../404.html">Academy Playground</a></li>
             </ul>
         </li>
           
@@ -159,117 +168,52 @@
     </div>
 </nav>
 <!--DIVISION-0: RESPONSIVE NAVBAR - ENDS -->
+<div class="container py-5">
+  <h1 class="text-center mb-4 fw-bold">SIS007 – Survivability, Sustainability & Humanities</h1>
+  <p class="lead text-center mb-5">This vertical reinforces the importance of civilizational continuity, ecological resilience, and humanitarian prioritization in national security frameworks. We integrate strategic foresight with environmental, social, and spiritual dimensions of survivability.</p>
 
-<!-- Main Container -->
-<div class="container-fluid bg-white p-5">
-    <h1 class="text-center mb-5 fw-bold" style="color: red;">Security Foundations & Compliance</h1>
+  <div class="text-center mb-4">
+    <a href="#resilience" class="anchor-link me-3">Strategic Resilience Planning</a> |
+    <a href="#eco" class="anchor-link mx-3">Ecological & Resource Security</a> |
+    <a href="#humanity" class="anchor-link mx-3">Humanitarian Intelligence</a> |
+    <a href="#culture" class="anchor-link ms-3">Civilization & Cultural Defense</a>
+  </div>
 
-    <div class="row mb-5">
-        <div class="col-md-12">
-            <p class="lead text-center">We deliver world-class, comprehensive security services tailored to organizations of all sizes. Our intelligence-driven and governance-aligned methodologies help you achieve global security standards across sectors, institutions, and governments.</p>
-        </div>
+  <!-- Resilience Planning -->
+  <section id="resilience" class="mb-5">
+    <h2 class="section-title">Strategic Resilience & Continuity Planning</h2>
+    <div class="card card-custom p-4 mt-3">
+      <p>Plan for long-term survival under stress scenarios—natural, economic, technological or military—by creating cross-sectoral continuity blueprints to protect national essence and social equilibrium.</p>
     </div>
+  </section>
 
-    <div class="row g-4">
-        <!-- GRC-ISMS -->
-        <div class="col-md-6">
-            <div class="card shadow rounded-4 h-100">
-                <div class="card-body">
-                    <h3 class="card-title fw-semibold" style="color:red;">Governance Risk Compliance - ISMS (GRC-ISMS)</h3>
-                    <p><strong>Primary Objective:</strong> Verify adherence to security standards and regulations. Identify governance and compliance gaps.</p>
-                    <p><strong>Deliverables:</strong></p>
-                    <ul>
-                        <li>Compliance Report</li>
-                        <li>Gap Analysis</li>
-                        <li>Recommendations</li>
-                        <li>Certification Support</li>
-                    </ul>
-                    <p><strong>Pricing:</strong> ₹5,00,000/quarter or ₹1,000–₹2,000/hour.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Infrastructure Hardening -->
-        <div class="col-md-6">
-            <div class="card shadow rounded-4 h-100">
-                <div class="card-body">
-                    <h3 class="card-title fw-semibold" style="color:red;">Infrastructure Hardening (IH)</h3>
-                    <p><strong>Primary Objective:</strong> Reduce attack surface by eliminating unnecessary services and insecure configurations.</p>
-                    <p><strong>Deliverables:</strong></p>
-                    <ul>
-                        <li>Secure, optimized system configuration</li>
-                        <li>Hardening report with recommendations</li>
-                    </ul>
-                    <p><strong>Pricing:</strong> ₹5,000–₹5,00,000 per device or ₹2,000–₹4,000/hour.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Security Management & Incident Response -->
-        <div class="col-md-6">
-            <div class="card shadow rounded-4 h-100">
-                <div class="card-body">
-                    <h3 class="card-title fw-semibold" style="color:red;">Security Management & Incident Response (COM-SMIR)</h3>
-                    <p><strong>Primary Objective:</strong> Build a resilient incident response mechanism and long-term security roadmap.</p>
-                    <p><strong>Deliverables:</strong></p>
-                    <ul>
-                        <li>Management & response plan</li>
-                        <li>Incident readiness assurance</li>
-                    </ul>
-                    <p><strong>Pricing:</strong> ₹3,000–₹6,000/hour or starts at ₹3,00,000.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Cybersecurity Framework Development -->
-        <div class="col-md-6">
-            <div class="card shadow rounded-4 h-100">
-                <div class="card-body">
-                    <h3 class="card-title fw-semibold" style="color:red;">Cybersecurity Framework Development (CFD)</h3>
-                    <p><strong>Primary Objective:</strong> Align with frameworks like NIST, CIS, ISO 27001 to establish security governance.</p>
-                    <p><strong>Deliverables:</strong></p>
-                    <ul>
-                        <li>Tailored security framework documentation</li>
-                        <li>Compliance alignment roadmap</li>
-                    </ul>
-                    <p><strong>Pricing:</strong> ₹4,000–₹8,000/hour or starts at ₹4,00,000.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Security Awareness Training -->
-        <div class="col-md-6">
-            <div class="card shadow rounded-4 h-100">
-                <div class="card-body">
-                    <h3 class="card-title fw-semibold" style="color:red;">Security Awareness Training (SAT)</h3>
-                    <p><strong>Primary Objective:</strong> Build a human firewall through awareness and behavioral change.</p>
-                    <p><strong>Deliverables:</strong></p>
-                    <ul>
-                        <li>Trained, security-conscious workforce</li>
-                        <li>Periodic knowledge assessments</li>
-                    </ul>
-                    <p><strong>Pricing:</strong> ₹5,00,000+ or ₹500–₹5,000/hour/user.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Security Control Validation -->
-        <div class="col-md-6">
-            <div class="card shadow rounded-4 h-100">
-                <div class="card-body">
-                    <h3 class="card-title fw-semibold" style="color: red;">Security Control Validation (SCV)</h3>
-                    <p><strong>Primary Objective:</strong> Ensure effectiveness of existing security controls.</p>
-                    <p><strong>Deliverables:</strong></p>
-                    <ul>
-                        <li>Validation report</li>
-                        <li>Remediation recommendations</li>
-                        <li>Operational assurance</li>
-                    </ul>
-                    <p><strong>Pricing:</strong> ₹2,00,000–₹6,00,000 per assessment.</p>
-                </div>
-            </div>
-        </div>
+  <!-- Ecological Intelligence -->
+  <section id="eco" class="mb-5">
+    <h2 class="section-title">Ecological Intelligence & Resource Security</h2>
+    <div class="card card-custom p-4 mt-3">
+      <p>Model the strategic implications of water wars, agricultural collapse, energy scarcity, and climate-induced migration. Design protection frameworks for critical resources and ecological balance zones.</p>
     </div>
+  </section>
+
+  <!-- Humanitarian Mapping -->
+  <section id="humanity" class="mb-5">
+    <h2 class="section-title">Humanitarian Intelligence & Social Stability</h2>
+    <div class="card card-custom p-4 mt-3">
+      <p>Provide early warnings for humanitarian crises and support decision-making on relief missions, refugee flows, civil unrest, and vulnerable population dynamics using demographic, sociopolitical, and geospatial datasets.</p>
+    </div>
+  </section>
+
+  <!-- Cultural Defense -->
+  <section id="culture" class="mb-5">
+    <h2 class="section-title">Cultural & Civilizational Security</h2>
+    <div class="card card-custom p-4 mt-3">
+      <p>Safeguard ancient traditions, languages, belief systems, and civilizational heritage from subversion, dilution, or erasure in the name of modernity or ideological warfare.</p>
+    </div>
+  </section>
+
+  <div class="text-center mt-5">
+    <a href="./all-services.html" class="red-button"><i class="fas fa-arrow-left"></i> Back to All Services</a>
+  </div>
 </div>
 
 <!-- DIVISION-7: CONTACT US FOOTER -->
@@ -282,7 +226,7 @@
               <div class="col-12 col-md-11 col-xl-10">
                 <div class="footer-logo-wrapper">
                   <a href="#!">
-                    <img src="./assets/logos/OnlyLogo.png" alt="BootstrapBrain Logo" width="100%" height="">
+                    <img src="./../../logos/" alt="BootstrapBrain Logo" width="100%" height="">
                   </a>
                 </div>
                 <div class="text-center">
